@@ -1,0 +1,30 @@
+class UserSingUpModel:
+     def __init__(self, name, last_name, email, password, repeat_password):
+          self.name = name
+          self.lastName = last_name
+          self.email = email
+          self.password = password
+          self.repeatPassword = repeat_password
+
+user= UserSingUpModel("John","Dou","test33533@test.com","Qwerty12345","Qwerty12345")
+
+session = requests.session()
+get_current_user = session.get("https://qauto2.forstudy.space/api/users/profile")
+post_new_user = session.post(url="https://qauto2.forstudy.space/api/auth/signup", json=user.__dict__)
+print(get_current_user.text)
+print(post_new_user.text)
+
+# test_dict = {
+#   "name": "John",
+#   "lastName": "Dou",
+#   "email": "testk22k2@test.com",
+#   "password": "Qwerty12345",
+#   "repeatPassword": "Qwerty12345"
+# }
+#
+#
+#
+# get_profile_user = requests.get("https://qauto2.forstudy.space/api/users/profile")
+# post_new_user = requests.post(url="https://qauto2.forstudy.space/api/auth/signup", json=test_dict)
+# print(get_profile_user.text,get_profile_user.status_code)
+# print(post_new_user.text,post_new_user.status_code)

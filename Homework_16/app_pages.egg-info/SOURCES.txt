@@ -1,0 +1,14 @@
+setup.py
+app_pages.egg-info/PKG-INFO
+app_pages.egg-info/SOURCES.txt
+app_pages.egg-info/dependency_links.txt
+app_pages.egg-info/not-zip-safe
+app_pages.egg-info/top_level.txt
+pages/__init__.py
+pages/base_facade.py
+pages/base_page.py
+pages/garage_page.py
+pages/main_page.py
+pages/registration_facade.py
+pages/registration_form_page.py
+tests/test_selenium_first_steps.py

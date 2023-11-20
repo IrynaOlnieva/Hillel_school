@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/Iryna/.idea/Iryna.iml" filepath="D:/Iryna/.idea/Iryna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" filepath="$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject2/.idea/pythonProject2.iml" filepath="$PROJECT_DIR$/../pythonProject2/.idea/pythonProject2.iml" />
+      <module fileurl="file://D:/pythonProject5/.idea/pythonProject5.iml" filepath="D:/pythonProject5/.idea/pythonProject5.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/session_24/.idea/session_24.iml" filepath="$USER_HOME$/Desktop/session_24/.idea/session_24.iml" />
+    </modules>
+  </component>
+</project>
